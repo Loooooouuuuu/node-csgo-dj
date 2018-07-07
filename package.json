@@ -1,0 +1,36 @@
+{
+  "name": "csgo-dj",
+  "version": "0.0.1",
+  "description": "CSGO Music player CLI and web-controllable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Perdouille/node-csgo-dj.git"
+  },
+  "keywords": [
+    "CSGO",
+    "Music",
+    "player",
+    "Counter-Strike",
+    "Global",
+    "Offensive",
+    "source",
+    "HL2",
+    "Valve",
+    "PleaseHL3"
+  ],
+  "author": "Lou PERRET",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "node-json-db": "^0.7.5",
+    "vorpal": "^1.12.0",
+    "youtube-dl": "^1.12.2"
+  }
+}
